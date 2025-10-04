@@ -1,4 +1,4 @@
-﻿namespace ShareInvest.OpenAPI.Entity;
+﻿namespace ShareInvest.Interface;
 
 public interface IAccountBook
 {

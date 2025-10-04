@@ -1,4 +1,4 @@
-﻿namespace ShareInvest.OpenAPI;
+﻿namespace ShareInvest;
 
 public class Order
 {
@@ -7,16 +7,19 @@ public class Order
     {
         get; set;
     }
+
     /// <summary>화면번호</summary>
     public virtual string ScreenNo
     {
         get => (count++ % 0x30 + 1000).ToString("D4");
     }
+
     /// <summary>계좌번호 10자리</summary>
     public virtual string? AccNo
     {
         get; set;
     }
+
     /// <summary>
     /// 주문유형
     /// 1.신규매수
@@ -36,11 +39,13 @@ public class Order
         }
         get => ordType;
     }
+
     /// <summary>종목코드 (6자리)</summary>
     public virtual string? Code
     {
         get; set;
     }
+
     /// <summary>주문수량</summary>
     public virtual int Qty
     {
@@ -50,11 +55,13 @@ public class Order
         }
         get => quantity;
     }
+
     /// <summary>주문가격</summary>
     public virtual int Price
     {
         get; set;
     }
+
     /// <summary>
     /// 거래구분
     /// 00.지정가
@@ -80,6 +87,7 @@ public class Order
         }
         get => hogaGb;
     }
+
     /// <summary>
     /// 신규주문에는 공백입력,
     /// 정정/취소시 원주문번호를 입력합니다.
@@ -92,6 +100,7 @@ public class Order
         }
         get => ordNo;
     }
+
     int quantity = 1;
     int ordType = 1;
 
