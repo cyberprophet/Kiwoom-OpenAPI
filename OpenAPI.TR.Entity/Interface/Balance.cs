@@ -1,4 +1,4 @@
-﻿namespace ShareInvest.OpenAPI;
+﻿namespace ShareInvest.Interface;
 
 public class Balance
 {
@@ -13,25 +13,25 @@ public class Balance
     {
         get; set;
     }
-    
+
     /// <summary>매도_매수구분</summary>
     public OrderStatus OrderStatus
     {
         get; set;
     }
-    
+
     /// <summary>당일순매수량</summary>
     public int TransactionQuantity
     {
         get; set;
     }
-    
+
     /// <summary>당일총매도손익</summary>
     public long TradingProfit
     {
         get; set;
     }
-    
+
     /// <summary>계좌번호</summary>
     public string? AccNo
     {
