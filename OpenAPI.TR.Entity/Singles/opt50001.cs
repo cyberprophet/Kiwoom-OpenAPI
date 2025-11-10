@@ -30,7 +30,7 @@ public class SingleOpt50001
     }
 
     /// <summary>등락율</summary>
-    [DataMember, JsonProperty("등락율"), StringLength(8)]
+    [DataMember, JsonProperty("등락율"), StringLength(0x10)]
     public string? Rate
     {
         get; set;
