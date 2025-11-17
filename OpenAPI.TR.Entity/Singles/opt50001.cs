@@ -198,7 +198,7 @@ public class SingleOpt50001
     }
 
     /// <summary>종목명</summary>
-    [DataMember, JsonProperty("종목명"), StringLength(0x20)]
+    [DataMember, JsonProperty("종목명"), StringLength(0x40)]
     public string? Name
     {
         get; set;
