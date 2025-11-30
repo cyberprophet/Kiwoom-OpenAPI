@@ -1,4 +1,4 @@
-﻿namespace ShareInvest;
+﻿namespace ShareInvest.RealType;
 
 public enum KiwoomRealType
 {

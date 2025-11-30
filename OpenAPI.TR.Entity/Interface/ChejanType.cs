@@ -1,4 +1,4 @@
-﻿namespace ShareInvest;
+﻿namespace ShareInvest.Interface;
 
 public enum ChejanType
 {

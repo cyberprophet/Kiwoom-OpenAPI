@@ -9,7 +9,7 @@ namespace ShareInvest.OpenAPI.Entity;
 public class SingleOPT50019
 {
     /// <summary>종목명</summary>
-    [DataMember, JsonProperty("종목명"), StringLength(0x10)]
+    [DataMember, JsonProperty("종목명"), StringLength(0x40)]
     public string? Name
     {
         get; set;

@@ -1,4 +1,4 @@
-﻿namespace ShareInvest.OpenAPI;
+﻿namespace ShareInvest.Interface;
 
 public class Account
 {
