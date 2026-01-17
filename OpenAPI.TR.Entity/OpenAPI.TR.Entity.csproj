@@ -14,7 +14,7 @@
 		<Description>library for AnyCPU use and convenient of Kiwoom OpenAPI</Description>
 		<Copyright>Copyright ⓒ 2023, ShareInvest Corp.</Copyright>
 		<Title>AntTalk</Title>
-		<Version>10.1.0.1</Version>
+		<Version>10.0.2.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
