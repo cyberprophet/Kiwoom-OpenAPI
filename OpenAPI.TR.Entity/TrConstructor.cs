@@ -1,4 +1,4 @@
-﻿using ShareInvest.OpenAPI.Entity;
+using ShareInvest.OpenAPI.Entity;
 
 using System.Globalization;
 using System.Reflection;

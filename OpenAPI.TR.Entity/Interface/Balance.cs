@@ -1,4 +1,4 @@
-﻿namespace ShareInvest.Interface;
+namespace ShareInvest.Interface;
 
 public class Balance
 {

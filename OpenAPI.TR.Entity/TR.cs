@@ -1,4 +1,4 @@
-﻿namespace ShareInvest;
+namespace ShareInvest;
 
 public abstract class TR
 {

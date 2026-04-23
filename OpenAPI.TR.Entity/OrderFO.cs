@@ -1,4 +1,4 @@
-﻿namespace ShareInvest;
+namespace ShareInvest;
 
 public class OrderFO
 {
