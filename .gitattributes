@@ -1,7 +1,28 @@
 ###############################################################################
-# Set default behavior to automatically normalize line endings.
+# Force LF line endings everywhere (target: Ubuntu server deployment).
+# Windows checkouts will also get LF in the working tree.
 ###############################################################################
-* text=auto
+* text=auto eol=lf
+
+# Windows-only scripts keep CRLF so cmd.exe can execute them.
+*.bat       text eol=crlf
+*.cmd       text eol=crlf
+*.ps1       text eol=crlf
+
+# Binary assets — never touch line endings or attempt text merges.
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.pdf       binary
+*.dll       binary
+*.exe       binary
+*.pdb       binary
+*.zip       binary
+*.gz        binary
+*.snk       binary
+*.pfx       binary
 
 ###############################################################################
 # Set default behavior for command prompt diff.
